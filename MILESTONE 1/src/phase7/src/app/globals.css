@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 45, 45, 45;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 248, 248, 248;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-[#E23744] text-white px-6 py-2.5 rounded-lg font-semibold 
+           hover:bg-[#cb202d] active:scale-[0.97] 
+           transition-all duration-200 ease-out;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl border border-gray-100 
+           shadow-sm hover:shadow-lg 
+           transition-all duration-300 ease-out overflow-hidden cursor-pointer;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-2.5 rounded-lg border border-gray-200 bg-white
+           text-sm text-gray-800 placeholder:text-gray-400
+           focus:outline-none focus:ring-2 focus:ring-[#E23744]/30 focus:border-[#E23744] 
+           transition-all duration-200;
+  }
+
+  .tag-pill {
+    @apply inline-block px-2.5 py-0.5 rounded-full text-[11px] font-semibold 
+           uppercase tracking-wider;
+  }
+}
+
+/* Skeleton loading animation */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+  border-radius: 8px;
+}

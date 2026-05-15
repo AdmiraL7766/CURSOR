@@ -1,0 +1,87 @@
+{
+  "status": "success",
+  "message": "Recommendations generated successfully.",
+  "preferences": {
+    "location": "Bellandur",
+    "budget_tier": "high",
+    "cuisine": "Any",
+    "min_rating": 4.0,
+    "additional_preferences": [],
+    "original_budget_input": "2000"
+  },
+  "summary": "Based on the user's preferences, the top recommendations are Chili's American Grill & Bar, Nook - Aloft Bengaluru Cessna Business Park, and Bombay Brasserie, all of which are located in Bellandur, have a high budget tier, and a rating above 4.0.",
+  "recommendations": [
+    {
+      "rank": 1,
+      "restaurant_id": "gen_49172",
+      "title": "Chili's American Grill & Bar",
+      "cuisine": "American, Tex-Mex, Burger, BBQ",
+      "rating": 4.6,
+      "estimated_cost_for_two": 1800.0,
+      "explanation": "This restaurant fits the user's preferences as it is located in Bellandur, has a high budget tier, and a rating of 4.6, which is above the minimum required rating of 4.0.",
+      "tags": [
+        "top-rated",
+        "premium"
+      ]
+    },
+    {
+      "rank": 2,
+      "restaurant_id": "gen_3752",
+      "title": "Nook - Aloft Bengaluru Cessna Business Park",
+      "cuisine": "North Indian, Continental, Asian",
+      "rating": 4.3,
+      "estimated_cost_for_two": 1800.0,
+      "explanation": "This restaurant is a good fit as it is located in Bellandur, has a high budget tier, and a rating of 4.3, which meets the minimum required rating of 4.0.",
+      "tags": [
+        "high-rated",
+        "premium"
+      ]
+    },
+    {
+      "rank": 3,
+      "restaurant_id": "gen_3995",
+      "title": "Bombay Brasserie",
+      "cuisine": "Modern Indian",
+      "rating": 4.3,
+      "estimated_cost_for_two": 1800.0,
+      "explanation": "This restaurant meets the user's preferences as it is located in Bellandur, has a high budget tier, and a rating of 4.3, which is above the minimum required rating of 4.0.",
+      "tags": [
+        "high-rated",
+        "premium"
+      ]
+    },
+    {
+      "rank": 4,
+      "restaurant_id": "gen_4143",
+      "title": "The Irish House",
+      "cuisine": "European, American",
+      "rating": 4.2,
+      "estimated_cost_for_two": 1700.0,
+      "explanation": "This restaurant is a good option as it is located in Bellandur, has a high budget tier, and a rating of 4.2, which is close to the minimum required rating of 4.0.",
+      "tags": [
+        "high-rated",
+        "premium"
+      ]
+    },
+    {
+      "rank": 5,
+      "restaurant_id": "gen_3749",
+      "title": "MoMo Cafe - Courtyard by Marriott",
+      "cuisine": "Asian, North Indian, South Indian, Momos",
+      "rating": 4.2,
+      "estimated_cost_for_two": 2000.0,
+      "explanation": "This restaurant fits the user's preferences as it is located in Bellandur, has a high budget tier, and a rating of 4.2, which meets the minimum required rating of 4.0.",
+      "tags": [
+        "high-rated",
+        "premium"
+      ]
+    }
+  ],
+  "metadata": {
+    "top_n_requested": 5,
+    "recommendations_returned": 5,
+    "llm_mode": "remote",
+    "llm_provider": "groq:llama-3.3-70b-versatile",
+    "candidate_count_received": 6
+  }
+}

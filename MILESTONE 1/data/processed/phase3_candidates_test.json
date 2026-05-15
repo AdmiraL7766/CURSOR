@@ -1,0 +1,87 @@
+{
+  "preferences": {
+    "location": "Bellandur",
+    "budget_tier": "high",
+    "cuisine": "Any",
+    "min_rating": 4.0,
+    "additional_preferences": [],
+    "original_budget_input": "2000"
+  },
+  "candidates": [
+    {
+      "name": "Chili's American Grill & Bar",
+      "location": "Bellandur",
+      "cuisine": "American, Tex-Mex, Burger, BBQ",
+      "cost_for_two": 1800.0,
+      "rating": 4.6,
+      "restaurant_id": "gen_49172",
+      "is_active": true,
+      "source_updated_at": NaN,
+      "ingested_at": "2026-05-15T17:50:27",
+      "budget_tier": "high"
+    },
+    {
+      "name": "Nook - Aloft Bengaluru Cessna Business Park",
+      "location": "Bellandur",
+      "cuisine": "North Indian, Continental, Asian",
+      "cost_for_two": 1800.0,
+      "rating": 4.3,
+      "restaurant_id": "gen_3752",
+      "is_active": true,
+      "source_updated_at": NaN,
+      "ingested_at": "2026-05-15T17:50:27",
+      "budget_tier": "high"
+    },
+    {
+      "name": "Bombay Brasserie",
+      "location": "Bellandur",
+      "cuisine": "Modern Indian",
+      "cost_for_two": 1800.0,
+      "rating": 4.3,
+      "restaurant_id": "gen_3995",
+      "is_active": true,
+      "source_updated_at": NaN,
+      "ingested_at": "2026-05-15T17:50:27",
+      "budget_tier": "high"
+    },
+    {
+      "name": "The Irish House",
+      "location": "Bellandur",
+      "cuisine": "European, American",
+      "cost_for_two": 1700.0,
+      "rating": 4.2,
+      "restaurant_id": "gen_4143",
+      "is_active": true,
+      "source_updated_at": NaN,
+      "ingested_at": "2026-05-15T17:50:27",
+      "budget_tier": "high"
+    },
+    {
+      "name": "MoMo Cafe - Courtyard by Marriott",
+      "location": "Bellandur",
+      "cuisine": "Asian, North Indian, South Indian, Momos",
+      "cost_for_two": 2000.0,
+      "rating": 4.2,
+      "restaurant_id": "gen_3749",
+      "is_active": true,
+      "source_updated_at": NaN,
+      "ingested_at": "2026-05-15T17:50:27",
+      "budget_tier": "high"
+    },
+    {
+      "name": "BG's Poolside Bar & Grill",
+      "location": "Bellandur",
+      "cuisine": "Mediterranean, Italian, Mexican",
+      "cost_for_two": 1600.0,
+      "rating": 4.1,
+      "restaurant_id": "gen_4586",
+      "is_active": true,
+      "source_updated_at": NaN,
+      "ingested_at": "2026-05-15T17:50:27",
+      "budget_tier": "high"
+    }
+  ],
+  "fallback_steps_used": [],
+  "total_candidates_before_cap": 6,
+  "max_candidates": 30
+}

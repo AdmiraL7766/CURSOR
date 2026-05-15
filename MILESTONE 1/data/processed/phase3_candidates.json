@@ -1,0 +1,41 @@
+{
+  "preferences": {
+    "location": "Bellandur",
+    "budget_tier": "high",
+    "cuisine": "North Indian",
+    "min_rating": 4.0,
+    "additional_preferences": [],
+    "original_budget_input": "2000"
+  },
+  "candidates": [
+    {
+      "name": "Nook - Aloft Bengaluru Cessna Business Park",
+      "location": "Bellandur",
+      "cuisine": "North Indian, Continental, Asian",
+      "cost_for_two": 1800.0,
+      "rating": 4.3,
+      "restaurant_id": "gen_3752",
+      "is_active": true,
+      "source_updated_at": NaN,
+      "ingested_at": "2026-05-11T15:00:55",
+      "budget_tier": "high",
+      "_pre_score": 3.4200555247084954
+    },
+    {
+      "name": "MoMo Cafe - Courtyard by Marriott",
+      "location": "Bellandur",
+      "cuisine": "Asian, North Indian, South Indian, Momos",
+      "cost_for_two": 2000.0,
+      "rating": 4.2,
+      "restaurant_id": "gen_3749",
+      "is_active": true,
+      "source_updated_at": NaN,
+      "ingested_at": "2026-05-11T15:00:55",
+      "budget_tier": "high",
+      "_pre_score": 3.280049975012494
+    }
+  ],
+  "fallback_steps_used": [],
+  "total_candidates_before_cap": 2,
+  "max_candidates": 30
+}
